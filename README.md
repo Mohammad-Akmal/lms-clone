@@ -1,22 +1,27 @@
-Learning Management System (Udemy Clone)
-Project Overview
-This project is a student-based Learning Management System (LMS) inspired by Udemy, developed using Next.js, React, Prisma ORM, Clerk for authentication, Stripe for payment processing, Mux for video hosting, and MySQL (Aiven) as the database.
+# Learning Management System (Udemy Clone)
 
-The system allows the admin to upload and monetize courses, while users can enroll and access purchased content.
+## Project Overview
+This project is a Learning Management System (LMS) inspired by Udemy, built with Next.js, React, Prisma ORM, Clerk authentication, Stripe payments, Mux video hosting, and MySQL (Aiven) as the database. 
 
-Live Demo
-You can access the live deployed version here:
-https://lms-clone-3d23kwg1g-mohammad-akmals-projects.vercel.app
+The system allows an admin (teacher) to upload, monetize, and manage courses, while students can browse, enroll, and track their progress.
 
-Features
-User authentication and role-based access control (Admin/Student).
+## Live Demo
+Access the live site here:  
+[LMS Clone Live](https://lms-clone-3d23kwg1g-mohammad-akmals-projects.vercel.app)
 
-Course creation, enrollment, and progress tracking.
+## Features
+- Role-based authentication and authorization (Admin and Student roles)
+- Course creation and management by admin
+- Video hosting via Mux (free tier limitations apply)
+- Stripe payment gateway for course purchases
+- Responsive UI with Tailwind CSS and ShadCN UI components
+- User progress tracking on courses and chapters
+- Secure API routes and data validation
 
-Secure payment integration via Stripe.
+## Installation
 
-Video hosting with Mux (free tier limitations apply).
+1. Clone the repo:
 
-Responsive UI with Tailwind CSS and ShadCN UI components.
-
-Admin dashboard for course management and analytics.
+```bash
+git clone https://github.com/Mohammad-Akmal/lms-clone.git
+cd lms-clone
